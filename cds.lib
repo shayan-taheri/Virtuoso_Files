@@ -1,0 +1,23 @@
+# File Created by  at Wed Jan 11 14:29:46 2017
+# assisted by CdsLibEditor
+SOFTINCLUDE $SYSTEM_CDS_LIB_DIR/cds.lib
+DEFINE basic $CDK_DIR/lib/basic
+DEFINE NCSU_Analog_Parts $CDK_DIR/lib/NCSU_Analog_Parts
+DEFINE NCSU_Digital_Parts $CDK_DIR/lib/NCSU_Digital_Parts
+#DEFINE      MOSIS_Layout_Test       $CDK_DIR/lib/MOSIS_Layout_Test
+DEFINE NCSU_TechLib_ami06 $CDK_DIR/lib/NCSU_TechLib_ami06
+DEFINE NCSU_TechLib_ami16 $CDK_DIR/lib/NCSU_TechLib_ami16
+DEFINE NCSU_TechLib_hp06 $CDK_DIR/lib/NCSU_TechLib_hp06
+DEFINE NCSU_TechLib_tsmc02 $CDK_DIR/lib/NCSU_TechLib_tsmc02
+DEFINE NCSU_TechLib_tsmc02d $CDK_DIR/lib/NCSU_TechLib_tsmc02d
+DEFINE NCSU_TechLib_tsmc03 $CDK_DIR/lib/NCSU_TechLib_tsmc03
+DEFINE NCSU_TechLib_tsmc03d $CDK_DIR/lib/NCSU_TechLib_tsmc03d
+DEFINE NCSU_TechLib_tsmc04_4M2P $CDK_DIR/lib/NCSU_TechLib_tsmc04_4M2P
+DEFINE EEE5390_Test /lhome/shayan/cdscad6/EEE5390_Test
+DEFINE EEE5390_Orig /lhome/shayan/cdscad6/EEE5390_Orig
+DEFINE sar_tfet /lhome/shayan/cdscad6/sar_tfet
+DEFINE analogLib /usr/local/cad/cadence/installs/IC616/tools/dfII/etc/cdslib/artist/analogLib
+DEFINE tfet tfet
+DEFINE bmslib /usr/cadence/tools/dfII/samples/artist/bmslib
+DEFINE sd_sar_tfet sd_sar_tfet
+DEFINE ahdlLib /usr/cadence/tools/dfII/samples/artist/ahdlLib

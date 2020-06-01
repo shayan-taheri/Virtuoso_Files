@@ -1,0 +1,32 @@
+\o Program:		@(#)$CDS: cdsLibEditor version 6.1.6 - CAT33 02/20/2013 14:27 (sjfnl893) $
+\o Sub version:		sub-version  p011 
+\o Arguments:		-display localhost:12.0 -mpssession virtuoso27478 -mpshost vlsi5 -namespace CDBA -cdslib /lhome/shayan/cdscad6/cds.lib 
+\o Working Directory:	vlsi5:/lhome/shayan/cdscad6
+\a nrSetWindowVisibility(cdsLibEditor "show")
+\o Qt version: 		4.7.2
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrListItemAction(cdsLibEditor->mainTable 0 0)
+\o Active cell: 0 0 "basic"
+\a nrResizeWindow(cdsLibEditor list(1735 612 500 400))
+\a nrResizeWindow(cdsLibEditor list(1802 338 500 400))
+\a nrListItemAction(cdsLibEditor->mainTable 13 0)
+\o Active cell: 13 0 "sar_tfet"
+\a nrListItemAction(cdsLibEditor->mainTable 17 0)
+\o Active cell: 17 0 ""
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrListItemAction(cdsLibEditor->mainTable 17 1)
+\o Active cell: 17 1 ""
+\a nrListItemAction(cdsLibEditor->mainTable 15 1)
+\o Active cell: 15 1 "tfet"
+\a cdsLibEditor->fileSaveButton->value = t
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrListItemAction(cdsLibEditor->mainTable 18 0)
+\o Active cell: 18 0 ""
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrListItemAction(cdsLibEditor->mainTable 18 1)
+\o Active cell: 18 1 ""
+\a nrListItemAction(cdsLibEditor->mainTable 15 1)
+\o Active cell: 15 1 "tfet"
+\a cdsLibEditor->fileSaveButton->value = t
+\a nrSetWindowVisibility(cdsLibEditor "hide")
+\a exit(0)
