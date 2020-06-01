@@ -1,0 +1,95 @@
+\# Program start time UTC 2017.01.30 21:07:23.405
+\# Local time Monday 30 January 2017, 4:07 pm
+\o Program:		@(#)$CDS: virtuoso version 6.1.6 05/03/2013 15:09 (sjfnl155) $
+\o Hierarchy:		/usr/local/cad/cadence/installs/IC616/tools.lnx86/dfII/
+\o Sub version:		sub-version  IC6.1.6.101  (32-bit addresses)
+\# Host name (type):	vlsi5 (x86_64)
+\# Operating system:	Linux 2.6.32-573.18.1.el6.x86_64 #1 SMP Tue Feb 9 22:46:17 UTC 2016
+\# Linux /etc/issue:	CentOS release 6.7 (Final)
+\# Linux /etc/issue:	Kernel \r on an \m
+\# X display name (WxH):	vlsi5:80 (1024x868)
+\# Available geometry:			TL(0:0) BR(1023:867)
+\# X server:			RealVNC Ltd (VNC nograph server)
+\# Depth of Visual (Root):	16 (16)
+\# Number of Planes Used:	16
+\# X version:		11.0 (vendor release 3370)
+\# X resource pool:	base 0x800000, mask 0x3fffff (4194303), shift 0
+\# 			current id 0x0, current max 0x3ffffa (4194298)
+\# Max data seg size:	     unlimited
+\# Max process size:	     unlimited
+\# Initial sbrk value:	        370 MB
+\# Available memory:	    119,055 MB
+\# System memory:	    169,503 MB
+\# Maximum memory size:	      3,765 MB
+\# Max mem available:	      3,765 MB
+\# Initial memory used:	         39 MB
+\#        process size:	        366 MB
+\# Qt version:		4.7.2
+\# Window Manager:	other
+\# User Name:		shayan
+\o Working Directory:	vlsi5:/lhome/shayan/cdscad6
+\# Process Id:		5080
+\o 
+\o COPYRIGHT © 1992-2013  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
+\o           © 1992-2013  UNIX SYSTEMS Laboratories INC.,
+\o                          Reproduced with permission.
+\o 
+\o This Cadence Design Systems program and online documentation are
+\o proprietary/confidential information and may be disclosed/used only
+\o as authorized in a license agreement controlling such use and disclosure.
+\o 
+\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
+\o Use/reproduction/disclosure is subject to restriction
+\o set forth at FAR 1252.227-19 or its equivalent.
+\# Available memory:        119,046 MB at UTC 2017.01.30 21:07:23.762
+\w *WARNING* envSetVal: Can't set the value of variable 'width',
+\w 	in tool[.partition] 'asimenv.plotting' - it has not been registered.
+\w *WARNING* envSetVal: Can't set the value of variable 'height',
+\w 	in tool[.partition] 'asimenv.plotting' - it has not been registered.
+\o Loading geView.cxt 
+\o Loading menuBuilder.cxt 
+\o Loading schView.cxt 
+\o Loading selectSv.cxt 
+\o Loading LVS.cxt 
+\o Loading layerProc.cxt 
+\o Loading pte2.cxt 
+\o Loading xlUI.cxt 
+\o Loading auCore.cxt 
+\o Loading dcm.cxt 
+\o Loading vhdl.cxt 
+\o Loading seismic.cxt 
+\o Loading ci.cxt 
+\o Loading ams.cxt 
+\o Loading oasis.cxt 
+\o Loading analog.cxt 
+\o Loading asimenv.cxt 
+\o Loading par.cxt 
+\o Loading socket.cxt 
+\o Loading alvs.cxt 
+\o Loading awv.cxt 
+\o Loading adexl.cxt 
+\o *Info*    Exporting services from client ... 
+\o 
+\o Loading NCSU CDK 1.5.1 customizations...
+\o loading vars from /lhome/shayan/ncsu-cdk-1.6.0.beta/cdssetup/cdsenv for tool adle
+\o loading vars from /lhome/shayan/ncsu-cdk-1.6.0.beta/cdssetup/cdsenv for tool asimenv
+\w *WARNING* envSetVal: Can't set the value of variable 'width',
+\w 	in tool[.partition] 'asimenv.plotting' - it has not been registered.
+\w *WARNING* envSetVal: Can't set the value of variable 'height',
+\w 	in tool[.partition] 'asimenv.plotting' - it has not been registered.
+\o loading vars from /lhome/shayan/ncsu-cdk-1.6.0.beta/cdssetup/cdsenv for tool ddserv
+\o loading vars from /lhome/shayan/ncsu-cdk-1.6.0.beta/cdssetup/cdsenv for tool layout
+\o loading vars from /lhome/shayan/ncsu-cdk-1.6.0.beta/cdssetup/cdsenv for tool schematic
+\o loading vars from /lhome/shayan/ncsu-cdk-1.6.0.beta/cdssetup/cdsenv for tool ui
+\o Loading NCSU SKILL routines...
+\w *WARNING* (def): redefining function cd from a lambda to be a nlambda
+\w *WARNING* (def): redefining function ls from a lambda to be a nlambda
+\o function pwd redefined
+\o Done loading NCSU_CDK customizations.
+\o *Info*    Client has finished starting ... 
+\o 
+\p > 
+\o 
+\o *Info*    Received signal SIGINT.
+\o 
+\o 

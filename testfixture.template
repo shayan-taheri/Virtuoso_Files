@@ -1,0 +1,31 @@
+
+`timescale 1ns / 1ns
+
+module test;
+
+
+wire  in, out, cdsNet1, cdsNet0;
+
+reg   io_in, io_out, io_cdsNet1, io_cdsNet0;
+
+
+// Inout assignments 
+cds_alias  cds_alias_inst3(cdsNet0, io_cdsNet0);
+
+cds_alias  cds_alias_inst4(cdsNet1, io_cdsNet1);
+
+cds_alias  cds_alias_inst5(out, io_out);
+
+cds_alias  cds_alias_inst6(in, io_in);
+
+
+inv_verilog_test top(in, out, cdsNet1, cdsNet0); 
+ 
+
+`ifdef verilog
+
+ //please enter any additional verilog stimulus in the /lhome/shayan/cdscad6/verilog/testfixture.verilog file
+  `include "/lhome/shayan/cdscad6/verilog/testfixture.verilog"
+`endif
+
+endmodule 

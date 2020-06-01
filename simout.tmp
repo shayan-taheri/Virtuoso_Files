@@ -1,0 +1,34 @@
+TOOL:	ncxlmode	14.10-s014: Started on Sep 02, 2016 at 02:48:05 EDT
+/usr/cadence/installs/INCISIV141/tools.lnx86/bin/ncxlmode
+	+delay_mode_path
+	+typdelays
+	-l
+	simout.tmp
+	/lhome/shayan/cdscad6/verilog/testfixture.template
+	-f /lhome/shayan/cdscad6/verilog/verilog.inpfiles
+		/lhome/shayan/ncsu-cdk-1.6.0.beta/lib/NCSU_Analog_Parts/nmos4/functional/verilog.v
+		/lhome/shayan/ncsu-cdk-1.6.0.beta/lib/NCSU_Analog_Parts/pmos4/functional/verilog.v
+		hdlFilesDir/cds_alias.v
+		ihnl/cds0/netlist
+		ihnl/cds1/netlist
+		hdlFilesDir/cds_globals.v
+	+nostdout
+	+nocopyright
+	+ncvlogargs+" -neverwarn -nostdout -nocopyright "
+	+ncelabargs+" -neg_tchk  -nonotifier  -sdf_NOCheck_celltype  -access +r  -pulse_e 100  -pulse_r 100  -neverwarn  -timescale 1ns/1ns -nostdout -nocopyright"
+	+ncsimargs+" -neverwarn  -nocopyright -gui -input /lhome/shayan/cdscad6/verilog/.simTmpNCCmd "
+	+mpssession+virtuoso1129
+	+mpshost+vlsi5
+
+-------------------------------------
+Relinquished control to SimVision...
+ncsim> 
+ncsim> source /usr/cadence/installs/INCISIV141/tools/inca/files/ncsimrc
+ncsim> database -open shmWave -shm -default -into shm.db
+Created default SHM database shmWave
+ncsim> probe -create -shm test  -all   -depth 1
+Created probe 1
+ncsim> probe -create cds_globals -shm
+Created probe 2
+ncsim> run
+ncsim> TOOL:	ncxlmode	14.10-s014: Exiting on Sep 02, 2016 at 03:03:00 EDT  (total: 00:14:55)

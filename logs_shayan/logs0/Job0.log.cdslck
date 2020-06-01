@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      shayan
+HostName                       vlsi5
+ProcessIdentifier              5080
+ProcessCreationTime_UTC        1485810442
+ProcessCreationTime_Readable   Mon Jan 30 16:07:22 2017 EST
+AppIdentifier                  /usr/local/cad/cadence/installs/IC616/tools.lnx86/dfII/bin/32bit/virtuoso
+OSType                         lnx86
+ReasonForPlacingEditLock       Set lock by hiiLockFile
+FilePathUsedToEditLock         /lhome/shayan/cdscad6/logs_shayan/logs0/Job0.log
+TimeEditLocked                 Mon Jan 30 16:07:23 2017 EST
